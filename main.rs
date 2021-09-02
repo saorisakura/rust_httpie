@@ -13,7 +13,7 @@ use std::{collections::HashMap, str::FromStr};
 
 /// A naive httpie implementation with Rust, can you imagine how easy it is?
 #[derive(Clap, Debug)]
-#[clap(version = "1.0", author = "Tyr Chen <tyr@chen.com>")]
+#[clap(version = "1.0", author = "Xavier@gmail.com")]
 #[clap(setting = AppSettings::ColoredHelp)]
 struct Opts {
     #[clap(subcommand)]
